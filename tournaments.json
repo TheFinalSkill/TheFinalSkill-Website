@@ -6,13 +6,6 @@
       "registrationDate": "---",
       "form": "https://docs.google.com/forms/d/e/1FAIpQLSdSZ--WR_24u5hn1RxOIAL2Lf9s5nMg2sM5o5yd9siBwj0isQ/viewform?embedded=true",
       "description": "Beschreibung des Turniers"
-    },
-    {
-      "title": "Beispielturnier2",
-      "date": "Datum",
-      "registrationDate": "---",
-      "form": "https://docs.google.com/forms/d/e/1FAIpQLSdSZ--WR_24u5hn1RxOIAL2Lf9s5nMg2sM5o5yd9siBwj0isQ/viewform?embedded=true",
-      "description": "Beschreibung des Turniers"
     }
   ]
 }
