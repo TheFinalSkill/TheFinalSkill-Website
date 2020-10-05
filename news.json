@@ -1,4 +1,16 @@
 {
-  "news" : [   
+  "news" : [
+    {
+      "title" : "Hello",
+      "text": "World"
+    },
+    {
+      "title" : "Hello2",
+      "text": "World"
+    },
+    {
+      "title" : "Hello3",
+      "text": "World"
+    }
   ]
 }
