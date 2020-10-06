@@ -1,29 +1,11 @@
 {
   "news" : [
     {
-      "title": "Hello",
-      "header": "This is header",
-      "subtitle": "This is a subtitle",
-      "text": "World"
-    },
-    {
-      "title": "Test2",
-      "header": "This is header",
-      "subtitle": "This is a subtitle",
-      "text": "BG Variant is primary",
-      "bgVariant": "primary"
-    },
-    {
-      "title": "Hello2",
-      "text": "World",
-      "imgSrc": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt45d6c2043ff36e28/5e21837f146ca8115b2d3332/Champion-List.jpg",
-      "footer": "This is footer text"
-    },
-    {
-      "title": "Hello3",
-      "text": "World",
-      "imgSrc": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt45d6c2043ff36e28/5e21837f146ca8115b2d3332/Champion-List.jpg",
-      "overlay": true
+      "title": "Neue Website!",
+      "header": "TheFinalSkill.de ist online!",
+      "text": "Endlich ist es so weit! Wir haben unsere eigene Website erstellt. Hier können wir Informationen teilen, Termine planen und Turniere organisieren. Wenn ihr noch Ideen oder Anregungen habt, teilt uns diese gerne mit (z. B. über Discord).",
+      "footer": "Oktober 2020",
+      "imgSrc": "https://nexus.leagueoflegends.com/wp-content/uploads/2019/10/LOL_CMS_311_Tile_01-Feature_H00-V50-min_1a4g299ji56iyidsvogn-1200x630.jpg"
     }
   ]
 }
