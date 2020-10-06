@@ -2,12 +2,22 @@
   "news" : [
     {
       "title": "Hello",
+      "header": "This is header",
+      "subtitle": "This is a subtitle",
       "text": "World"
+    },
+    {
+      "title": "Test2",
+      "header": "This is header",
+      "subtitle": "This is a subtitle",
+      "text": "BG Variant is primary",
+      "bgVariant": "primary"
     },
     {
       "title": "Hello2",
       "text": "World",
-      "imgSrc": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt45d6c2043ff36e28/5e21837f146ca8115b2d3332/Champion-List.jpg"
+      "imgSrc": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt45d6c2043ff36e28/5e21837f146ca8115b2d3332/Champion-List.jpg",
+      "footer": "This is footer text"
     },
     {
       "title": "Hello3",
