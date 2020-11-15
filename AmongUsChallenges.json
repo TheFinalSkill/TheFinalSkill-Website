@@ -1,10 +1,33 @@
 {
-  generalChallenges: [
+  "generalChallenges" : [
+    "Deine ersten Worte bei jedem Meeting lauten \"Ich war es nicht, ABER...\"." ,
+    "\"Entscheidet ihr\": Immer wenn die Anzahl der Lebenden gerade ist, musst du beim Meeting Skippen." ,
+    "Keine Challenge, alles normal!" ,
+    "Rede in jedem Meeting als erster." ,
+    "\"Der Mathematiker\": Rede nur in mathematischer Sprache mit Fachbegriffen, etc." ,
+    "Suche dir eine beliebige Person aus und widerspreche ihm/ihr konsequent." ,
+    "Wenn jemand rausgevotet wird, sag bei der Rauswurfanimation: \"Ihr seid so dumm!\"" ,
+    "\"Goethe\": Du reimst deine Sätze." ,
+    "\"Jesus\": Du bist Jesus und sprichts auch wie er." ,
+    "Vote immer erst zum Ende der Votingtime (bei weniger als 3 Sekunden)." ,
+    "Du hast ein Gedächtnis wie ein Sieb: Im Meeting kannst du dich nicht mehr daran erinnern, was in dieser Runde passiert ist (auch wenn du einen Körper reportest hast, merkst du das erst, wenn jemand dich darauf hinweist)." ,
+    "\"Kann sein\": Du bist merklich unsicher bei allem was du sagst." ,
+    "\"Einsamer Wolf\": Gruppen mit mehr als zwei Leuten sind nichts für dich." ,
+    "Wenn du jemanden beschuldigst, dann aber so richtig." ,
+    "Beschuldige konsequent immer auf Selfreport." ,
+    "\"Promi\": Wenn jemand in den Kameras ist bietest du ihm eine Performance." ,
+    "Wenn dich jemand beschuldigt, antworte mit: \"Nein, falsch, niemals, ich wars nicht, nie im leben, unmöglich!\"" ,
+    "Dein Vote darf nicht mit dem übereinstimmen, was du im Meeting sagst." ,
+    "Du musst jede Runde jemand anderen verdächtigen." ,
+    "Immer wenn du ein Meeting startest (Knopf oder Report) beginne mit dem Satz: \"<Name> wir haben das gleich sehen, oder?\"" ,
+    "Gib in jedem Meeting dem ersten Beschuldigten ein Alibi." ,
+    "Du darfst keine Leichen reporten oder Meetings einberufen" ,
+    "Fange an, alles und jeden zu flamen sobald du verdächtigt wirst."
   ],
-  crewmateChallenges: [
+  "crewmateChallenges" : [
   ],
-  impostorChallenges: [
+  "impostorChallenges" : [
   ],
-  gameChallenges: [
+  "gameChallenges" : [
   ]
 }
