@@ -28,6 +28,7 @@
   ],
   "crewmateChallenges" : [
     "\"Lügner\": Du musst immer lügen" ,
+    "Für Sabotagen gibt es doch Teammitglieder. Du darfst keine Sabotagen fixen (Ausnahme: Es leben nur noch 3 Spieler)." ,
     "Erwähne im Meeting nur Tasks, die du nicht hättest machen können." ,
     "\"Workaholic\": Du arbeitest nur-, wenn jemand anderes mit dir im Raum ist." ,
     "Vote konsequent immer auf Selfreport." ,
@@ -67,7 +68,8 @@
     "Du darfst keine Lügen erzählen! Werde kreativ." ,
     "Töte erst, wenn dein Impostor-Mate aufgeflogen ist." ,
     "Fange an, alles und jeden zu flamen sobald du verdächtigt wirst." ,
-    "\"Venter\": Du darfst nur dann einen Kill machen, wenn du weniger als 10 Sekunden davor aus einem Vent gesprungen bist."
+    "\"Venter\": Du darfst nur dann einen Kill machen, wenn du weniger als 10 Sekunden davor aus einem Vent gesprungen bist." ,
+    "Du darfst nur killen, wenn das Licht aus ist."
   ],
   "gameChallenges" : [
     "Keine Challenge, alles normal!" ,
