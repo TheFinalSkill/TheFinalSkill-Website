@@ -22,7 +22,7 @@
     "Immer wenn du ein Meeting startest (Knopf oder Report) beginne mit dem Satz: \"<Name> wir haben das gleich sehen, oder?\"" ,
     "Gib in jedem Meeting dem ersten Beschuldigten ein Alibi." ,
     "Du darfst keine Leichen reporten oder Meetings einberufen" ,
-    "Fange an, alles und jeden zu flamen sobald du verdächtigt wirst." ,
+    "\"Der Flamer\": Fange an, alles und jeden zu flamen sobald du verdächtigt wirst." ,
     "\"Yoda\": Yoda du sein, so sprechen du musst."
   ],
   "crewmateChallenges" : [
@@ -65,7 +65,8 @@
     "\"Ich bin verwirrt\": Du versuchst Verwirrung zu stiften und bist selbst davon verwirrt." ,
     "Du darfst keine Lügen erzählen! Werde kreativ." ,
     "Töte erst, wenn dein Impostor-Mate aufgeflogen ist." ,
-    "Fange an, alles und jeden zu flamen sobald du verdächtigt wirst."
+    "Fange an, alles und jeden zu flamen sobald du verdächtigt wirst." ,
+    "\"Venter\": Du darfst nur dann einen Kill machen, wenn du weniger als 10 Sekunden davor aus einem Vent gesprungen bist."
   ],
   "gameChallenges" : [
     "Keine Challenge, alles normal!" ,
