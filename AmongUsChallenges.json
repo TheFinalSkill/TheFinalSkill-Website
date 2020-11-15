@@ -30,8 +30,8 @@
     "\"Lügner\": Du musst immer lügen" ,
     "Für Sabotagen gibt es doch Teammitglieder. Du darfst keine Sabotagen fixen (Ausnahme: Es leben nur noch 3 Spieler)." ,
     "Erwähne im Meeting nur Tasks, die du nicht hättest machen können." ,
-    "\"Workaholic\": Du arbeitest nur-, wenn jemand anderes mit dir im Raum ist." ,
-    "Vote konsequent immer auf Selfreport." ,
+    "\"Workaholic\": Du arbeitest nur (Tasks), wenn jemand anderes mit dir im Raum ist." ,
+    "Vote konsequent immer mit der Begründung Selfreport." ,
     "Suche dir eine beliebige Person aus und widerspreche ihm/ihr konsequent." ,
     "Rede in jedem Emergency-Meeting als erster." ,
     "\"Sabotage? Wo?\": Sobald eine Sabotage erscheint lässt du alles stehen und liegen und machst dich daran, das Problem zu fixen. Keine Tasks und keine Kills!" ,
@@ -48,7 +48,8 @@
     "Fange an, alles und jeden zu flamen sobald du verdächtigt wirst." ,
     "Rede in einem Meeting erst, wenn dich jemand verdächtigt oder als unschuldig eingeschätzt hat." ,
     "\"Common kann jeder\": Du machst die Common Tasks erst zum Schluss (Keys, CardSwipe, ID-Card, Wires)." ,
-    "Wenn du dich verteidigst, schwöre auf deine Unschuld."
+    "Wenn du dich verteidigst, schwöre auf deine Unschuld." ,
+    "\"Vor Gericht\": Verteidige dich wie vor einem Gericht. Die Mitspieler sind dabei die Jury, derjenige der das Meeting einberufen hat der Richter."
   ],
   "impostorChallenges" : [
     "Wenn jemand eine deiner Leichen reportet, musst du diese Person töten, bevor du jemand anderen umbringst (betrifft nicht Meetings). Erst wenn diese Person durch dich oder jemand anderen stirbt darfst du deine Opfer wieder frei wählen (Ausnahme wenn nur noch ein Impostor am Leben ist)." ,
