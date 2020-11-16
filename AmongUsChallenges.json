@@ -19,6 +19,7 @@
     "\"Promi\": Wenn jemand in den Kameras ist bietest du ihm eine Performance." ,
     "Wenn dich jemand beschuldigt, antworte mit: \"Nein, falsch, niemals, ich wars nicht, nie im leben, unmöglich!\"" ,
     "Dein Vote darf nicht mit dem übereinstimmen, was du im Meeting sagst." ,
+    "\"Vor Gericht\": Verteidige dich wie vor einem Gericht. Die Mitspieler sind dabei die Jury, derjenige der das Meeting einberufen hat der Richter." ,
     "Du musst jede Runde jemand anderen verdächtigen." ,
     "Immer wenn du ein Meeting startest (Knopf oder Report) beginne mit dem Satz: \"<Name> wir haben das gleich sehen, oder?\"" ,
     "Gib in jedem Meeting dem ersten Beschuldigten ein Alibi." ,
@@ -59,7 +60,6 @@
     "\"Der Reihe nach\": Erledige deine Aufgaben der Reihe nach, wie sie oben links angezeigt werden." ,
     "\"Umgekehrte Reihenfolge\": Erledige deine Aufgaben der Reihe nach, beginnend bei der untersten Aufgabe in deiner Liste (oben links)." ,
     "\"Runter und hoch\": Du machst die Aufgaben basierend auf deren Position auf der Map. Dabei machst du abwechselnd eine Aufgabe von unten und anschließend oben (und dann stets im Wechsel)." ,
-    "\"Vor Gericht\": Verteidige dich wie vor einem Gericht. Die Mitspieler sind dabei die Jury, derjenige der das Meeting einberufen hat der Richter." ,
     "\"Faulpelz\": Aufgaben langweilen dich. Bis zum ersten Metting tu was du willst, nur keine Aufgaben. Nach dem dritten Meeting hast du Mittagspause (auch keine Aufgaben)." ,
     "\"Bis zum bitteren Ende\": Die letzte Aufgabe darfst du erst fertigstellen, wenn nur noch 4 Personen leben (oder du tot bist)."
   ],
