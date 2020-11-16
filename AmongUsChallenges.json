@@ -30,7 +30,7 @@
     "\"Silvio, der Kameramann\": Gehe am Anfang jeder Runde zu Security (Kameras) bis du auf den Cams mindestens 3 Personen gesehen hast." ,
     "Sage einmalig beim spätesten 3. Meeting, dass du wüsstest, wer der Imposter ist. Warte dann bis alle dir zuhören bevor du weiter redest." ,
     "(Einmalig) Wenn dich jemand beschuldigt, mache ihm ein Kompliment." ,
-    "\"Ich muss das erstmal verkraften\": Zum Beginn der Runde und nach jedem Meeting bleibst du so lange stehen, bis niemand mehr im Raum ist, bevor du dich bewegst." ,
+    "\"Ich muss das erstmal verkraften\": Zum Beginn der Runde und nach jedem Meeting bleibst du so lange stehen, bis niemand mehr im Raum ist, bevor du dich bewegst (höchstens 15 Sekunden)." ,
     "\"Namenslos\": Sage keine Namen sondern ausschließlich Farben. Du fühlst dich selbst auch nur angesprochen, wenn deine Farbe erwähnt wirst und kannst auch nur auf die anderen Mitspieler eingehen, wenn die getroffenen Aussagen sich auf die Farbe der Person beziehen. "
   ],
   "crewmateChallenges" : [
