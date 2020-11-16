@@ -25,7 +25,11 @@
     "Du darfst keine Leichen reporten oder Meetings einberufen" ,
     "\"Der Flamer\": Fange an, alles und jeden zu flamen sobald du verdächtigt wirst." ,
     "\"Yoda\": Yoda du sein, so sprechen du musst." ,
-    "\"Streamer\": Rede im Meeting wie zu deinen Zuschauern auf deinem Twitch Kanal."
+    "\"Streamer\": Rede im Meeting wie zu deinen Zuschauern auf deinem Twitch Kanal." ,
+    "\"Fass dich kurz\": Du darfst in jedem Meeting höchstens 10 Wörter sagen." ,
+    "\"Silvio, der Kameramann\": Gehe am Anfang jeder Runde zu Security (Kameras) bis du auf den Cams mindestens 3 Personen gesehen hast." ,
+    "Sage einmalig beim spätesten 3. Meeting, dass du wüsstest, wer der Imposter ist. Warte dann bis alle dir zuhören bevor du weiter redest." ,
+    "\"Namenslos\": Sage keine Namen sondern ausschließlich Farben. Du fühlst dich selbst auch nur angesprochen, wenn deine Farbe erwähnt wirst und kannst auch nur auf die anderen Mitspieler eingehen, wenn die getroffenen Aussagen sich auf die Farbe der Person beziehen. "
   ],
   "crewmateChallenges" : [
     "\"Lügner\": Du musst immer lügen" ,
@@ -50,6 +54,9 @@
     "Rede in einem Meeting erst, wenn dich jemand verdächtigt oder als unschuldig eingeschätzt hat." ,
     "\"Common kann jeder\": Du machst die Common Tasks erst zum Schluss (Keys, CardSwipe, ID-Card, Wires)." ,
     "Wenn du dich verteidigst, schwöre auf deine Unschuld." ,
+    "\"Der Reihe nach\": Erledige deine Aufgaben der Reihe nach, wie sie oben links angezeigt werden." ,
+    "\"Umgekehrte Reihenfolge\": Erledige deine Aufgaben der Reihe nach, beginnend bei der untersten Aufgabe in deiner Liste (oben links)." ,
+    "\"Runter und hoch\": Du machst die Aufgaben basierend auf deren Position auf der Map. Dabei machst du abwechselnd eine Aufgabe von unten und anschließend oben (und dann stets im Wechsel)." ,
     "\"Vor Gericht\": Verteidige dich wie vor einem Gericht. Die Mitspieler sind dabei die Jury, derjenige der das Meeting einberufen hat der Richter."
   ],
   "impostorChallenges" : [
@@ -63,6 +70,7 @@
     "Rede in jedem Emergency-Meeting als erster." ,
     "\"Tür zu, es zieht!\": Achte feinsäuberlich darauf, dass alle Türen so gut es geht geschlossen bleiben." ,
     "Du darfst nur Comms sabotieren." ,
+    "Wenn dein Imposterfreund dich verdächtigt, verdächtige ihn zurück und vote konsequent für ihn." ,
     "Du darfst keine Vents benutzen." ,
     "Mach den ersten Kill im gesamten Match, solbald der Killbutton aufleuchtet." ,
     "Vote konsequent immer auf Selfreport." ,
