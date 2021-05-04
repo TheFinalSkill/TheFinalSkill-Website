@@ -2,7 +2,7 @@
   "news" : [
     {
       "title": "League of Legends 5 vs. 5 Team Generator",
-      "text": "ToDo",
+      "text": "Unter Games/LeagueOfLegends gibt es jetzt einen 5 gegen 5 Team Generator. Dieseer ermöglicht es, 10 Spieler mit Elo, sowie Erst- und Zweitrolle anzugeben. Anschließend berechnet das Programm die Teams so, dass diese nicht nur Rollentechnisch gut passen, sondern auch in Bezug auf die MMR balanciert sind.",
       "footer": "Mai 2021",
       "imgSrc": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt7cfcbef1c7754ca4/5e3b50211ff22e62a7ce690e/CLASH2020_T2_CLIENT_1920x1080_ARTICLE_IMAGE_FINAL.jpg"
     },
