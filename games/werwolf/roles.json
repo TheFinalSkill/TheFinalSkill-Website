@@ -1,0 +1,42 @@
+{
+    "Erste-Nacht": {
+        "name": "Erste Nacht",
+        "variant": "primary",
+        "roles": [
+            {
+                "name": "Amor",
+                "description": ""
+            }
+        ]
+    },
+    "Jede-Nacht": {
+        "name": "Jede Nacht",
+        "variant": "warning",
+        "roles": [
+            {
+                "name": "Seherin",
+                "description": ""
+            }
+        ]
+    },
+    "Tag": {
+        "name": "Tag",
+        "variant": "danger",
+        "roles": [
+            {
+                "name": "Richter",
+                "description": ""
+            }
+        ]
+    },
+    "Sonstige": {
+        "name": "Sonstige Rollen",
+        "variant": "info",
+        "roles": [
+            {
+                "name": "",
+                "description": ""
+            }
+        ]
+    }
+}
