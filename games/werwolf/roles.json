@@ -1,42 +1,155 @@
 {
-    "Erste-Nacht": {
-        "name": "Erste Nacht",
-        "variant": "primary",
-        "roles": [
-            {
-                "name": "Amor",
-                "description": ""
-            }
-        ]
+    "parties": {
+        "Dorfbewohner": "primary",
+        "Werwolf": "danger",
+        "Verliebte": "dark",
+        "Unbestimmt": "secondary",
+        "Einzelgänger": "info"
     },
-    "Jede-Nacht": {
-        "name": "Jede Nacht",
-        "variant": "warning",
-        "roles": [
-            {
-                "name": "Seherin",
-                "description": ""
-            }
-        ]
-    },
-    "Tag": {
-        "name": "Tag",
-        "variant": "danger",
-        "roles": [
-            {
-                "name": "Richter",
-                "description": ""
-            }
-        ]
-    },
-    "Sonstige": {
-        "name": "Sonstige Rollen",
-        "variant": "info",
-        "roles": [
-            {
-                "name": "",
-                "description": ""
-            }
-        ]
+    "phases": {
+        "Erste-Nacht": {
+            "name": "Erste Nacht",
+            "variant": "primary",
+            "roles": [
+                {
+                    "name": "Dieb",
+                    "group": "Unbestimmt",
+                    "description": "Der Dieb bekommt zu Beginn des Spiels die Wahl zwischen zwei Rollen und nimmt dann eine der beiden Rollen an."
+                },
+                {
+                    "name": "Amor",
+                    "group": "Dorfbewohner",
+                    "description": "Armor wählt die zwei verliebte Personen aus (er darf auch sich selbst auswählen). Im Anschluss ist er ein regulärer Dorfbewohner der ebenfalls gewinnt, wenn die verliebten gewinnen."
+                },
+                {
+                    "name": "Die Verliebten",
+                    "group": "Verliebte",
+                    "description": "Nachdem Armor die verliebten gewählt hat schauen sich diese an und haben ein neues Ziel: Die einzigen Überlebenden sein! Wenn einer der verliebten stirbt, so stirbt auch der andere Verliebte."
+                },
+                {
+                    "name": "Richter",
+                    "group": "Dorfbewohner",
+                    "description": "Der Richter ist ein Dorfbewohner, der in der ersten Nacht ein geheimes Zeichen mit dem Spielleiter ausmacht. Dieses kann er einmalig am Tag geben, was dazu führt, dass nach der eigentlichen Abstimmung noch eine Abstimmung erfolgt."
+                },
+                {
+                    "name": "Wildes Kind",
+                    "group": ["Dorfbewohner", "Werwolf"],
+                    "description": "Das Wilde Kind wählt sich anfangs sein \"Vorbild\". Wenn diese Person stirbt, wird das Wilde Kind zu einem Werwolf, andernfalls ist es ein normaler Dorfbewohner."
+                },
+                {
+                    "name": "Wolfshund",
+                    "group": "Unbestimmt",
+                    "description": "Der Wolfshund entscheidet sich in der ersten Nacht, ob er ein Werwolf oder ein normaler Dorfbewohner sein möchte und nimmt dann diese Rolle an."
+                }
+            ]
+        },
+        "Jede-Nacht": {
+            "name": "Jede Nacht",
+            "variant": "dark",
+            "roles": [
+                {
+                    "name": "Gaukler",
+                    "group": "Dorfbewohner",
+                    "description": "Zu Beginn des Spiels legt der Spielleiter drei (Dorfbewohner-) Rollen mit Spezialkräften offen in die Mitte. In jeder Nacht darf der Gaukler sich entscheiden, ob er für eine Nacht eine der Rollen annehmen möchte. Anschließend entfernt der Spielleiter diese Identität."
+                },
+                {
+                    "name": "Seherin",
+                    "group": "Dorfbewohner",
+                    "description": "Die Seherin darf jede Nacht die Identität einer Person ansehen."
+                },
+                {
+                    "name": "Fuchs",
+                    "group": "Dorfbewohner",
+                    "description": "Der Fuchs darf eine Gruppe von drei Nachbarn wählen (bestimmt durch die Person in der Mitte). Wenn sich in dieser Gruppe (mindestens) ein Werwolf befindet, zeigt der Spielleiter dies an. Sollte dies nicht der Fall sein, verliert er seine Spezialkraft und ist ein normaler Dorfbewohner."
+                },
+                {
+                    "name": "Beschützer",
+                    "group": "Dorfbewohner",
+                    "description": "Der Beschützer darf jede Nacht eine Person auswählen, welche in dieser Nacht vor den Werwölfen beschützt ist. Er darf sich selbst schützen aber nicht zwei Mal in Folge die gleiche Person. Der Schutz wirkt nicht für das kleine Mädchen."
+                },
+                {
+                    "name": "Dorf***lampe",
+                    "group": "Dorfbewohner",
+                    "description": "Jede Nacht wählt dieser Spieler eine andere Person aus, bei der sie \"übernachtet\". Sollte diese Person das Werwolfopfer sein, so stirbt sie ebenfalls. Sollte sie jedoch das Werwolfopfer sein, so stirbt sie nicht. Sie kann dennoch durch die Hexe sterben, stirbt jedoch nicht, wenn die Person mit der sie schläft von der Hexe getötet wird."
+                },
+                {
+                    "name": "Werwolf",
+                    "group": "Werwolf",
+                    "description": "Die Werwölfe wählen jede Nacht ein Opfer, welches sie töten wollen. Ihr Ziel ist es, alle Dorfbewohner zu töten."
+                },
+                {
+                    "name": "Weißer Werwolf (jede zweite Nacht)",
+                    "group": ["Werwolf", "Einzelgänger"],
+                    "description": "Der weiße Wolf erwacht jede Nacht mit den Werwölfen und wählt mit ihnen das Opfer. Jede zweite Nacht erwacht er im Anschluss erneut und darf, wenn er mag, einen Werwolf (KEINEN Dorfbewohner!) töten. Sein Ziel ist es, als einziger Überlebender zu verbleiben."
+                },
+                {
+                    "name": "Urwolf",
+                    "group": "Werwolf",
+                    "description": "Der Urwolf erwacht jede Nacht mit den anderen Werwölfen und wählt mit ihnen ein Opfer. Beim Einschlafen der Werwölfe kann er dem Spielleiter ein Signal geben, dass er seine (einmalige) Spezialfähigkeit einsetzen möchte: Das ausgewählte Opfer wird daraufhin angetippt und ist ab sofort ein Werwolf (und stirbt nicht). Sollte der Spieler nachtaktive Spezialfähigkeiten haben, so behält er diese zusätzlich bei."
+                },
+                {
+                    "name": "Großer, Böser Werwolf",
+                    "group": "Werwolf",
+                    "description": "Der große böse Werwolf erwacht jede Nacht mit den anderen Werwölfen. Solange kein Werwolf eliminiert wurde, erwacht er im Anschluss erneut (alleine) und sucht ein weiteres Opfer (es darf kein Werwolf sein)."
+                },
+                {
+                    "name": "Hexe",
+                    "group": "Dorfbewohner",
+                    "description": "Die Hexe bekommt in jeder Nacht das Werwolfopfer angezeigt. Sie hat im gesamten Spiel einen Heil- und einen Tötungstrank. Mit dem Heiltrank kann sie das Werwolfopfer in der Nacht retten. Mit dem Tötungstrank kann sie eine beliebige Person umbringen."
+                },
+                {
+                    "name": "Flötenspieler",
+                    "group": "Einzelgänger",
+                    "description": "Jede Nacht bestimmt der Flötenspieler 2 Spieler (nicht sich selbst), die anschließend vom Spielleiter berührt werden. Nachdem der Flötenspieler einschläft wachen alle verzauberten Spieler auf. Der Flötenspieler gewinnt, wenn es keinen Spieler (außer ihm) mehr gibt, der nicht verzaubert ist."
+                }
+            ]
+        },
+        "Tag": {
+            "name": "Tag",
+            "variant": "danger",
+            "roles": [
+                {
+                    "name": "Sündenbock",
+                    "group": "Dorfbewohner",
+                    "description": "Der Sündenbock ist ein Dorfbewohner. Sollte jedoch bei einer Abstimmung Stimmengleichheit herrschen, so stirbt der Sündenbock. Er darf jedoch als letzte Handlung bestimmen, wer alles am nächsten Tag abstimmen darf und wer nicht."
+                },
+                {
+                    "name": "Dorfdepp",
+                    "group": "Dorfbewohner",
+                    "description": "Der Dorfdepp ist ein Dorfbewohner mit folgender Besonderheit: Wenn der Dorfdepp bei einer Abstimmung zum sterben gewählt wird, deckt er seine Identität auf und bleibt am Leben. Er verliert daraufhin jedoch sein Stimmrecht."
+                },
+                {
+                    "name": "Der Alte",
+                    "group": "Dorfbewohner",
+                    "description": "Wenn der Alte von den Werwölfen (und nur von den Werwölfen) in der Nacht getötet wird, so stirbt er beim ersten Mal nicht. Erst wenn die Werwölfe ihn ein zweites mal fressen, stirbt er. Sollte er bei der Abstimmung, durch den Jäger oder den Trank der Hexe sterben, so stirbt er direkt und die Dorfbewohner verlieren ihre besonderen Fähigkeiten!"
+                }
+            ]
+        },
+        "Sonstige": {
+            "name": "Sonstige Rollen",
+            "variant": "info",
+            "roles": [
+                {
+                    "name": "Jäger",
+                    "group": "Dorfbewohner",
+                    "description": "Wenn der Jäger stirbt, darf er eine beliebige Person umbringen."
+                },
+                {
+                    "name": "Ritter mit der rostigen Klinge",
+                    "group": "Dorfbewohner",
+                    "description": "Wird der Ritter von den Werwölfen gefressen, so erleidet einer der Werwölfe an einer Vergiftung. In der folgenden Nacht stirbt der Werwolf, welcher am nächsten links vom Ritter sitzt."
+                },
+                {
+                    "name": "Die ergebene Magd",
+                    "group": ["Dorfbewohner", "Unbestimmt"],
+                    "description": "Bevor die Identität des Mitspielers, der durch die Dorfabstimmung stirbt, aufgedeckt wird, darf die Magd ihre Karte aufdecken und die Identität annehmen. Grundsätzlich übernimmt sie dabei die Sonderfähigkeiten so, als wäre es die erste Nacht."
+                },
+                {
+                    "name": "Engel",
+                    "group": ["Einzelgänger", "Dorfbewohner"],
+                    "description": "Sein Ziel ist es, in der ersten Nacht oder der ersten Abstimmung zu sterben, wodurch er das Spiel direkt gewinnt. Sollte ihm dies nicht gelingen, wird er zu einem normalen Dorfbewohner."
+                }
+            ]
+        }
     }
 }
